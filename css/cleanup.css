@@ -1,30 +1,17 @@
 /* write your override styles here */
 
-
-#wall .tag-1 { 
-  display: none; 
-}
-
-#wall #tag-2 {
+#wall .tag-1 {
   display: none;
 }
 
-#wall #tag-3.slick.wicked { 
+body #wall #tag-2 { /*gets rid of tag 2, don't know what body is*/
   display: none;
 }
 
-#wall .parent #tag-4 {
-  display: none; 
+#wall #tag-3.slick.wicked { /* gets rid of tag 3*/
+  display: none;
 }
 
-#wall div.parent #tag-5.slick {
-  display: none; 
-}
-
-body #wall div.parent div:last-child #tag-6 {
-  display: none; 
-}
-
-body #wall div.parent div:first-child > #tag-7.slick {
+.parent { /*deletes most things on here like 4, 5, 6, 7*/
   display: none;
 }
